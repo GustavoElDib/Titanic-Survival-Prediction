@@ -71,7 +71,7 @@ Entre as principais vantagens do XGBoost estão:
 
 - Alta capacidade de capturar relações não lineares
 - Uso de regularização para redução de overfitting
-- Excelente desempenho dos modelos
+- Excelente desempenho do modelo em comparação aos modelos Random Forest e apenas uma Árvore de Decisão
 
 ---
 
@@ -89,6 +89,7 @@ param_grid = {
     'learning_rate': [0.01, 0.1, 0.2, 0.3], 
     'reg_alpha': [0, 0.1, 0.5, 1]
 }
+
 Significado dos hiperparâmetros:
 
 n_estimators
